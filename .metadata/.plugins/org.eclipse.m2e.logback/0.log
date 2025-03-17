@@ -1,0 +1,34 @@
+2025-03-13 14:34:52,100 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-13 14:34:53,106 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-03-13 14:47:35,066 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-13 14:47:36,274 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-03-13 16:33:45,467 [Worker-50: https://www.ftp.saix.net/Eclipse//releases/2023-03/202303151000/plugins/org.apache.httpcomponents.httpcore.source_4.4.16.v20221207-1049.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:33:46,507 [Worker-53: https://www.ftp.saix.net/Eclipse//releases/2023-03/202303151000/plugins/org.apache.httpcomponents.httpcore.source_4.4.16.v20221207-1049.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:35:17,627 [Worker-45: https://www.ftp.saix.net/Eclipse//releases/2025-03/202503121000/plugins/org.apache.httpcomponents.core5.httpcore5-h2_5.3.2.v20250110-0800.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:35:17,628 [Worker-61: https://www.ftp.saix.net/Eclipse//releases/2025-03/202503121000/plugins/org.apache.lucene.analysis-smartcn_10.1.0.v20241221-1000.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:35:18,510 [Worker-67: https://www.ftp.saix.net/Eclipse//releases/2025-03/202503121000/plugins/org.apache.lucene.analysis-smartcn_10.1.0.v20241221-1000.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:35:18,567 [Worker-45: https://www.ftp.saix.net/Eclipse//releases/2025-03/202503121000/plugins/org.apache.httpcomponents.core5.httpcore5-h2_5.3.2.v20250110-0800.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.ftp.saix.net:443
+2025-03-13 16:35:54,881 [Worker-62: https://mirror.csclub.uwaterloo.ca/eclipse/releases/2025-03/202503121000/plugins/org.eclipse.datatools.sqltools.plan_1.3.0.202412071309.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://mirror.csclub.uwaterloo.ca:443
+2025-03-13 16:35:55,567 [Worker-46: https://mirror.csclub.uwaterloo.ca/eclipse/releases/2025-03/202503121000/plugins/org.eclipse.datatools.sqltools.plan_1.3.0.202412071309.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://mirror.csclub.uwaterloo.ca:443
+2025-03-13 16:35:55,959 [Worker-63: https://mirror.csclub.uwaterloo.ca/eclipse/releases/2025-03/202503121000/plugins/org.eclipse.datatools.sqltools.sqleditor_1.4.0.202412071309.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://mirror.csclub.uwaterloo.ca:443
+2025-03-13 16:35:56,933 [Worker-67: https://mirror.csclub.uwaterloo.ca/eclipse/releases/2025-03/202503121000/plugins/org.eclipse.datatools.sqltools.sqleditor_1.4.0.202412071309.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {s}->https://mirror.csclub.uwaterloo.ca:443
+2025-03-13 16:49:27,564 [ModalContext] ERROR o.e.m.c.i.p.r.ProjectRegistryReader - Can't write workspace state
+java.io.FileNotFoundException: D:\Study material\Java\.metadata\.plugins\org.eclipse.m2e.core\workspaceState.ser (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.createObjectOutputStream(ProjectRegistryReader.java:128)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryReader.writeWorkspaceState(ProjectRegistryReader.java:117)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.writeWorkspaceState(ProjectRegistryManager.java:1009)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.saving(ProjectRegistryManager.java:1160)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:393)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:209)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:212)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1170)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2421)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:554)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+2025-03-17 13:33:23,970 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-17 13:33:25,087 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
