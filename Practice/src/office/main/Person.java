@@ -19,6 +19,8 @@ public class Person {
 		System.out.println("Person name: "+name);
 		dob.Display();
 	}
-	
+	public String toString() {
+		return name+"\n"+dob.toString();
+	}
 	
 }

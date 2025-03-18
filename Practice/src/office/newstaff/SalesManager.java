@@ -2,7 +2,7 @@ package office.newstaff;
 
 import office.staff.Employee;
 
-public class SalesManager extends Employee {
+public  class SalesManager extends Employee {
 	private double target;
 	private double commision;
 	public SalesManager() {
@@ -14,9 +14,16 @@ public class SalesManager extends Employee {
 		this.target = target;
 		this.commision = commision;
 	}
+	public double calSalary() {
+		double total=getSalary()+commision;
+		
+		return total;
+	}
+	
 	public void display() {
 		super.display();
 		System.out.println("Sales Target: "+target);
 		System.out.println("Commision: "+commision);
+		System.out.println("Final Salary: "+calSalary());
 	}
 }	

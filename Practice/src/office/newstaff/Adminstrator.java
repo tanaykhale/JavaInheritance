@@ -2,7 +2,7 @@ package office.newstaff;
 
 import office.staff.Employee;
 
-public class Adminstrator extends Employee {
+public  class Adminstrator extends Employee {
 	
 	private double allowance;
 
@@ -16,9 +16,15 @@ public class Adminstrator extends Employee {
 		super(n, d, m, y, empid, salary);
 		this.allowance = allowance;
 	}
+	public double calSalary() {
+		double total=getSalary()+allowance;
+		
+		return total;
+	}
 	public void display() {
 		super.display();
 		System.out.println("Allowance of Adminstrator :"+allowance);
+		System.out.println("Final Salary: "+calSalary());
 	}
 	
 }

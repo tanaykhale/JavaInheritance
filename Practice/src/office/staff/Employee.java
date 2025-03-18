@@ -2,7 +2,7 @@ package office.staff;
 
 import office.main.Person;
 
-public class Employee extends Person {
+public abstract class Employee extends Person {
 	private int empid;
 	private double salary;
 	
@@ -23,7 +23,12 @@ public class Employee extends Person {
 		System.out.println("Emplyee id :"+empid);
 		System.out.println("Salary :"+salary);
 	}
-	
-	
+	public String toString() {
+		return  super.toString()+"\n"+empid+"\n"+salary;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public abstract double calSalary();
 
 }

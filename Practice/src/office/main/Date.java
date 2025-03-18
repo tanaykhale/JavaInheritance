@@ -13,5 +13,9 @@ public class Date {
 	public void Display() {
 		System.out.println(dd+"/"+mm+"/"+yyyy);
 	}
+	public String toString() {
+		
+		return dd+ "/" +mm+ "/" +yyyy;
+	}
 
 }

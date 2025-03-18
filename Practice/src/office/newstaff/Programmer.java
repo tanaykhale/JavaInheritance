@@ -2,7 +2,7 @@ package office.newstaff;
 
 import office.staff.Employee;
 
-public class Programmer extends Employee {
+public  class Programmer extends Employee {
 	private String title;
 	private int  extraHOurs;
 	private double chargerperHour;
@@ -17,10 +17,16 @@ public class Programmer extends Employee {
 		this.extraHOurs = extraHOurs;
 		this.chargerperHour = chargerperHour;
 	}
+	public double calSalary() {
+		double total=getSalary()+extraHOurs*chargerperHour;
+		
+		return total;
+	}
 	public void display() {
 		super.display();
 		System.out.println("Project Tilte: "+title);
 		System.out.println("Extra hours spend on project: "+extraHOurs);
 		System.out.println("Rate per hour: "+chargerperHour);
+		System.out.println("Final Salary: "+calSalary());
 	}
 }
