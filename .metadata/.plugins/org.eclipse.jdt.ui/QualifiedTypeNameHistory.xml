@@ -4,6 +4,9 @@
     <fullyQualifiedTypeName name="office.main.Date"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
     <fullyQualifiedTypeName name="offfice.book.Book"/>
-    <fullyQualifiedTypeName name="office.staff.Employee"/>
     <fullyQualifiedTypeName name="office.main.Person"/>
+    <fullyQualifiedTypeName name="office.staff.Employee"/>
+    <fullyQualifiedTypeName name="office.newstaff.SalesManager"/>
+    <fullyQualifiedTypeName name="office.newstaff.Programmer"/>
+    <fullyQualifiedTypeName name="office.newstaff.Adminstrator"/>
 </qualifiedTypeNameHistroy>

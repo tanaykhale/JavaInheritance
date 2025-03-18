@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
-		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
-		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
 		<item key="sortItemState" value="false"/>
 	</section>
 	<section name="GitCommitMessageComponent">
@@ -13,6 +13,16 @@
 			<item value="packages"/>
 			<item value="Tanay Khale &lt;91783433+tanaykhale@users.noreply.github.com&gt;"/>
 			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+		<list key="D:\Study material\Java\.git">
+			<item value="false"/>
+			<item value="Tanay Khale &lt;91783433+tanaykhale@users.noreply.github.com&gt;"/>
+			<item value="inheritance"/>
+			<item value="Tanay Khale &lt;91783433+tanaykhale@users.noreply.github.com&gt;"/>
+			<item value="0e6e4c5f0d27d4a835097b8e80c313f62430ef6a"/>
 			<item value="0"/>
 			<item value="false"/>
 			<item value=""/>
