@@ -26,5 +26,13 @@ public  class Adminstrator extends Employee {
 		System.out.println("Allowance of Adminstrator :"+allowance);
 		System.out.println("Final Salary: "+calSalary());
 	}
+
+	public double getAllowance() {
+		return allowance;
+	}
+
+	public void setAllowance(double allowance) {
+		this.allowance = allowance;
+	}
 	
 }
