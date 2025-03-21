@@ -2,4 +2,9 @@
 <typeInfoHistroy>
     <typeInfo handle="=Practice/C:\/Users\/hp\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1675512202000"/>
     <typeInfo handle="=Practice/C:\/Users\/hp\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(String.class[String" modifiers="49" timestamp="1675512202000"/>
+    <typeInfo handle="=Calculator/src&lt;abstractmethod{iCalculator.java[iCalculator" modifiers="513" timestamp="1742377549532"/>
+    <typeInfo handle="=Calculator/src&lt;abstractmethod{iScientificCalculator.java[iScientificCalculator" modifiers="513" timestamp="1742377559506"/>
+    <typeInfo handle="=Calculator/src&lt;abstractmethod{BasicIntOperations.java[BasicIntOperations" modifiers="513" timestamp="1742378188878"/>
+    <typeInfo handle="=Calculator/C:\/Users\/hp\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.nio.file.attribute(BasicFileAttributes.class[BasicFileAttributes" modifiers="1537" timestamp="1675512202000"/>
+    <typeInfo handle="=Calculator/src&lt;abstractmethod{AdvIntOperations.java[AdvIntOperations" modifiers="513" timestamp="1742378186207"/>
 </typeInfoHistroy>

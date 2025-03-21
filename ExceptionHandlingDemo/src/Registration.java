@@ -2,6 +2,8 @@ import java.util.*;
 
 import Exception.InvalidCountryException;
 import Exception.PasswordValid;
+import Exception.StackOverFlowException;
+import Exception.StackUnderFlowException;
 public class Registration {
 
 public static boolean notIndia(String country) {
@@ -88,19 +90,43 @@ public static void main(String[] args) {
 //			System.out.println(e);
 //		}
 		//Problem 7
+//		Stack s=new Stack(4);
+//		s.Push(23);
+//		s.Push(67);
+//		s.Push(67);
+//		s.Push(78);
+//		
+//		
+//		s.display();
+//		System.out.println("Pop: "+s.Pop());
+//		System.out.println("Pop: "+s.Pop());
+//		System.out.println("Pop: "+s.Pop());
+//		System.out.println("Pop: "+s.Pop());
 		Stack s=new Stack(4);
-		s.Push(23);
-		s.Push(67);
-		s.Push(67);
-		s.Push(78);
+		try {
+			s.Push(23);
+			s.Push(67);
+			s.Push(67);
+			s.Push(78);
+			
+			
+			
+			s.display();
+			System.out.println();
+			
+			System.out.println("Pop: "+s.Pop());
+			System.out.println("Pop: "+s.Pop());
+			System.out.println("Pop: "+s.Pop());
+			System.out.println("Pop: "+s.Pop());
+			System.out.println("Pop: "+s.Pop());
+		}
+		catch(StackOverFlowException e) {
+			System.out.println(e);
+		}
+		catch(StackUnderFlowException e) {
+			System.out.println(e);
+		}
 		
-		
-		s.display();
-		System.out.println("Pop: "+s.Pop());
-		System.out.println("Pop: "+s.Pop());
-		System.out.println("Pop: "+s.Pop());
-		System.out.println("Pop: "+s.Pop());
-		System.out.println("Pop: "+s.Pop());
 
 	}
 

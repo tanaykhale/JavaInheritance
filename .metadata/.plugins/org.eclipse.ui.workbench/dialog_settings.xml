@@ -25,4 +25,6 @@
 			<item value="ssh"/>
 		</list>
 	</section>
+	<section name="NewWizardAction">
+	</section>
 </section>
