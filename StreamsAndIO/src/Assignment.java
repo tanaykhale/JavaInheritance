@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.util.*;
 public class Assignment {
 	public static boolean isPrime(int n) {
@@ -8,7 +9,7 @@ public class Assignment {
 		return true;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args)throws Exception {
 		// TODO Auto-generated method stub
 //Accept two number from user A<B if not exit ,if true find the prime number between A and B
 		Scanner sc=new Scanner(System.in);
@@ -16,10 +17,17 @@ public class Assignment {
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		
+		FileWriter fw=new FileWriter("D:\\Study material\\Java\\StreamsAndIO\\dest.txt");
 		for(int i=a;i<b;i++) {
-			if(isPrime(i))
+			if(isPrime(i)) {
 				System.out.println(i);
+			
+				fw.write(i+"\n");
+				
+			}
+				
 		}
+		fw.flush();
 		
 
 	}}
