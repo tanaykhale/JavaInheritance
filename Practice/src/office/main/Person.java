@@ -1,8 +1,10 @@
 package office.main;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable{
 	private String name;
-	private Date dob;
+	private  Date dob;
 	public Person(){
 		name=null;
 		dob=null;
@@ -20,7 +22,10 @@ public class Person {
 		dob.Display();
 	}
 	public String toString() {
-		return name+"\n"+dob.toString();
+		return "Name: "+name+"\n"+"Dob: "+dob.toString();
+	}
+	public  int getYear() {
+		return dob.getYear();
 	}
 	
 }

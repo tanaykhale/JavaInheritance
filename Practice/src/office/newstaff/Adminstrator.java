@@ -34,5 +34,8 @@ public  class Adminstrator extends Employee {
 	public void setAllowance(double allowance) {
 		this.allowance = allowance;
 	}
+	public String toString() {
+		return super.toString()+"\n"+"Allowance: "+allowance;
+	}
 	
 }

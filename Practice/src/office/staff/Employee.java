@@ -24,7 +24,7 @@ public abstract class Employee extends Person {
 		System.out.println("Salary :"+salary);
 	}
 	public String toString() {
-		return  super.toString()+"\n"+empid+"\n"+salary;
+		return  super.toString()+"\n"+"Employee id"+empid+"\n"+"Salary: "+salary;
 	}
 	public double getSalary() {
 		return salary;

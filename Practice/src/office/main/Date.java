@@ -1,6 +1,8 @@
 package office.main;
 
-public class Date {
+import java.io.Serializable;
+
+public class Date implements Serializable {
 	private int dd,mm,yyyy;
 	public Date() {
 		dd=mm=yyyy=0;
@@ -17,5 +19,7 @@ public class Date {
 		
 		return dd+ "/" +mm+ "/" +yyyy;
 	}
-
+	public int getYear() {
+		return yyyy;
+	}
 }

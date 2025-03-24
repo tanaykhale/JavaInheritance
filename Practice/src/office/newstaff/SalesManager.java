@@ -3,7 +3,7 @@ package office.newstaff;
 import office.staff.Employee;
 import travel.ITraveller;
 
-public  class SalesManager extends Employee implements ITraveller {
+public  class SalesManager extends Employee implements ITraveller  {
 	
 	private double target;
 	private double commision;
@@ -43,5 +43,9 @@ public  class SalesManager extends Employee implements ITraveller {
 	}
 	public int getTravelHours() {
 		return travelHours;
+	}
+	public String toString() {
+		return super.toString()+"Target: "+target+"\n"+"Commision: "+commision+"\n"+
+					"Passport number: "+passportNum+"\n"+"Travel hours: "+travelHours+"\n";
 	}
 }	

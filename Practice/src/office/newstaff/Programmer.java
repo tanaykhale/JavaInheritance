@@ -46,4 +46,10 @@ public  class Programmer extends Employee implements ITraveller {
 	public int getTravelHours() {
 		return travelHours;
 	}
+	public String toString() {
+		return super.toString()+"\n"+"Tilte: "+title+"\n"+"Extra Hours : "+extraHOurs+"\n"+
+				"Charges per Hour: "+chargerperHour+"\n"+"Passport number: "+passportNum+"\n"+
+				"Travel Hour"+travelHours+"\n";
+	
+	}
 }

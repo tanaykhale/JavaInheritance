@@ -16,7 +16,8 @@ public class Assignment {
 		System.out.println("Enter the range");
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		
+		if(a>b)
+			return;
 		FileWriter fw=new FileWriter("D:\\Study material\\Java\\StreamsAndIO\\dest.txt");
 		for(int i=a;i<b;i++) {
 			if(isPrime(i)) {
