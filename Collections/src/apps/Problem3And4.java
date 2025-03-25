@@ -55,31 +55,37 @@ public class Problem3And4  {
 		List<Customer> lcus=new ArrayList<>();
 		List<RegisteredCustomer> lreg=new ArrayList<>();
 		ObjectInputStream ois=new ObjectInputStream(new FileInputStream("D:\\Study material\\Java\\Collections\\input.txt"));
-		Customer [] data=new Customer[5];
-		for(int i=0;i<3;i++) {
-			data[i]= (Customer) ois.readObject();
-			if( data[i] instanceof RegisteredCustomer) {
-				lreg.add((RegisteredCustomer) data[i]);
-			}
-			else {
-				lcus.add(data[i]);
-			}
-		}
-//		List<Customer> data=new ArrayList<>();
-//		
-//		while(true) {
-//			try {
+//		Customer [] data=new Customer[5];
+//		for(int i=0;i<3;i++) {
+//			data[i]= (Customer) ois.readObject();
+//			if( data[i] instanceof RegisteredCustomer) {
+//				lreg.add((RegisteredCustomer) data[i]);
+//			}
+//			else {
+//				lcus.add(data[i]);
+//			}
+//		}
+		List<Customer> data=new ArrayList<>();
+		
+		while(true) {
+			try {
 //				data=(List<Customer>) ois.readObject();
 //				if(data instanceof RegisteredCustomer) {
 //					lreg.add((RegisteredCustomer) data);
 //				}
 //				else
 //					lcus.add((Customer)data);
-//			}
-//			catch(Exception e) {
-//				break;
-//			}
-//		}
+				 Object obj = ois.readObject();
+			        if (obj instanceof RegisteredCustomer) {
+			            lreg.add((RegisteredCustomer) obj);
+			        } else if (obj instanceof Customer) {
+			            lcus.add((Customer) obj);
+			        }
+			}
+			catch(Exception e) {
+				break;
+			}
+		}
 		for(Customer cs:lcus) {
 			System.out.println(cs);
 		}
