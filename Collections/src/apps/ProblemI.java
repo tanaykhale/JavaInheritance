@@ -29,7 +29,23 @@ public class ProblemI {
 		while(litr.hasPrevious()) {
 			System.out.println(litr.previous());
 		}
-
+		System.out.println("Sorting the list");
+		Collections.sort(l);
+		System.out.println(l);
+		System.out.println("Printing the list in reverse order");
+		Collections.reverse(l);
+		System.out.println("Checking if the given string is present in the list or not");
+		System.out.println(l);
+		String key="Raja";
+		Iterator<String> itr1=l.iterator();
+		while(itr1.hasNext()) {
+			if(itr1.next()==key) {
+				System.out.println("String is present");
+				System.out.println(itr1.next());
+			}
+		}
+		
 	}
+	
 
 }

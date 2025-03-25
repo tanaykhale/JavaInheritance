@@ -4,12 +4,9 @@
     <fullyQualifiedTypeName name="office.main.Date"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
     <fullyQualifiedTypeName name="offfice.book.Book"/>
-    <fullyQualifiedTypeName name="office.main.Person"/>
     <fullyQualifiedTypeName name="color.ColorPoint"/>
-    <fullyQualifiedTypeName name="office.staff.Employee"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction"/>
     <fullyQualifiedTypeName name="office.newstaff.Adminstrator"/>
-    <fullyQualifiedTypeName name="office.newstaff.SalesManager"/>
     <fullyQualifiedTypeName name="travel.ITraveller"/>
     <fullyQualifiedTypeName name="office.newstaff.Programmer"/>
     <fullyQualifiedTypeName name="abstractmethod.iCalculator"/>
@@ -36,4 +33,22 @@
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="office.staff.Employee"/>
+    <fullyQualifiedTypeName name="office.newstaff.SalesManager"/>
+    <fullyQualifiedTypeName name="office.main.Person"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="school.Student"/>
+    <fullyQualifiedTypeName name="school.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="customer.Customer"/>
+    <fullyQualifiedTypeName name="customer.RegisteredCustomer"/>
 </qualifiedTypeNameHistroy>
