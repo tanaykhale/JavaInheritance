@@ -65,16 +65,9 @@ public class Problem3And4  {
 //				lcus.add(data[i]);
 //			}
 //		}
-		List<Customer> data=new ArrayList<>();
 		
 		while(true) {
 			try {
-//				data=(List<Customer>) ois.readObject();
-//				if(data instanceof RegisteredCustomer) {
-//					lreg.add((RegisteredCustomer) data);
-//				}
-//				else
-//					lcus.add((Customer)data);
 				 Object obj = ois.readObject();
 			        if (obj instanceof RegisteredCustomer) {
 			            lreg.add((RegisteredCustomer) obj);
@@ -86,9 +79,11 @@ public class Problem3And4  {
 				break;
 			}
 		}
+		System.out.println("Regular Customer");
 		for(Customer cs:lcus) {
 			System.out.println(cs);
 		}
+		System.out.println("Registered Customer");
 		for(RegisteredCustomer r:lreg) {
 			System.out.println(r);
 		}

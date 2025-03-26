@@ -11,6 +11,4 @@ public class RegisteredCustomer extends Customer{
 	public String toString() {
 		return super.toString()+"\n"+"Registered Number: "+regno;
 	}
-	
-
 }
