@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="apps.Categaory"/>
-    <fullyQualifiedTypeName name="office.main.Date"/>
-    <fullyQualifiedTypeName name="java.awt.print.Book"/>
-    <fullyQualifiedTypeName name="offfice.book.Book"/>
-    <fullyQualifiedTypeName name="color.ColorPoint"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction"/>
-    <fullyQualifiedTypeName name="office.newstaff.Adminstrator"/>
     <fullyQualifiedTypeName name="travel.ITraveller"/>
     <fullyQualifiedTypeName name="office.newstaff.Programmer"/>
     <fullyQualifiedTypeName name="abstractmethod.iCalculator"/>
@@ -18,17 +11,13 @@
     <fullyQualifiedTypeName name="Exception.PasswordToLongException"/>
     <fullyQualifiedTypeName name="Exception.InvalidCountryException"/>
     <fullyQualifiedTypeName name="Exception.PasswordValid"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
     <fullyQualifiedTypeName name="Exception.StackOverFlowException"/>
     <fullyQualifiedTypeName name="Exception.StackUnderFlowException"/>
     <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="javax.imageio.stream.FileImageInputStream"/>
     <fullyQualifiedTypeName name="office.staff.Employee"/>
@@ -38,14 +27,12 @@
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="school.Student"/>
     <fullyQualifiedTypeName name="school.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="customer.Customer"/>
     <fullyQualifiedTypeName name="customer.RegisteredCustomer"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -55,9 +42,22 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="mail.Mail"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.time.chrono.ChronoLocalDateTime"/>
     <fullyQualifiedTypeName name="java.time.chrono.ChronoLocalDate"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="newcustomer.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="MyThread"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
