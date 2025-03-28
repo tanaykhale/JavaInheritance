@@ -8,9 +8,7 @@ public class ProblemVIII {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		d1.getT().setPriority(10);
-//		d2.getT().setPriority(5);
-//		d3.getT().setPriority(1);
+
 		FileWriter fw=null;
 		try {
 			fw=new FileWriter("D:\\Study material\\Java\\MultiThreadingInJava\\destination.txt");

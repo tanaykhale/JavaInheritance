@@ -16,7 +16,7 @@ public class Divisor implements Runnable {
 		t=new Thread(this);
 		this.num = num;
 		this.fw=fw;
-//		t.start();
+
 	}
 
 
@@ -40,17 +40,13 @@ public class Divisor implements Runnable {
 			
 			
 		}
-//		getDivisor(num);
+
 		System.out.println("Insertion successful!!");
 
 	}
 
 
 
-	public synchronized  void getDivisor(int num2) {
-		
-		
-	}
 
 
 
