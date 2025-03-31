@@ -6,7 +6,7 @@ public class ProblemXV {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Map<Integer,String> map=new HashMap();
+		Map<Integer,String> map=new HashMap<Integer, String>();
 		map.put(1, "int");
 		map.put(2, "double");
 		map.put(3, "float");

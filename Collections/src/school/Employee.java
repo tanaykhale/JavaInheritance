@@ -31,5 +31,9 @@ public   class Employee implements Comparable<Employee>  {
 		}
 		return diff;
 	}
+	public double getSalary() {
+		// TODO Auto-generated method stub
+		return salary;
+	}
 	
 }
