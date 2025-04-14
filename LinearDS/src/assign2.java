@@ -10,6 +10,10 @@ public class assign2 {
 		for(int i=0;i<str.length();i++) {
 				s.Push(str.charAt(i));
 		}
+		for(char a='A';a<='Z';a++)
+		{
+			s.Push(a);
+		}
 		s.display();	
 	}
 
