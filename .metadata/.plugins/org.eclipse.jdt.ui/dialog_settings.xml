@@ -145,4 +145,7 @@
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
 	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
+	</section>
 </section>
