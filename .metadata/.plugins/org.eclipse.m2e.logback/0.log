@@ -87,3 +87,7 @@ java.io.FileNotFoundException: D:\Study material\Java\.metadata\.plugins\org.ecl
 2025-04-15 15:32:04,252 [Worker-28: http://download.eclipse.org/usssdk/updates/release/latest/content.jar] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {}->http://download.eclipse.org:80
 2025-04-15 15:32:04,285 [Worker-1: http://download.eclipse.org/usssdk/updates/release/latest/content.xml] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (java.net.SocketException) caught when processing request to {}->http://download.eclipse.org:80
 2025-04-16 13:42:13,612 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-17 13:49:15,663 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-17 13:49:17,229 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2025-04-18 14:01:28,837 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-18 18:46:14,186 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

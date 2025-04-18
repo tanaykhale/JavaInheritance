@@ -19,50 +19,57 @@ public class Circularmain {
 			System.out.println("99.Display");
 			System.out.println("0.Exit....");
 			int ch=sc.nextInt();
+			int data;
 			switch(ch) {
 			case 0:
 				System.exit(0);
 				break;
 			case 1:
-				s.addData();
+				System.out.println("Enter the data");
+				data=sc.nextInt();
+				s.addAtStart(data);;
 				break;
 			case 2:
-				s.addEnd();
+				System.out.println("Enter the data");
+				data=sc.nextInt();
+				s.addAtEnd(data);
 				break;
 			case 3:
 				System.out.println("Enter the value");
 				int value=sc.nextInt();
-				s.addBetween(value);
-				break;
-			case 4:
-				System.out.println("Number of nodes: "+s.countNode());
-				break;
-			case 5:
-				s.deleteStart();
-				break;
-			case 6:
-				s.deleteEnd();
-				break;
-			case 7:
-				System.out.println("Enter the value at which you want to delete the data: ");
-				int val=sc.nextInt();
-				s.deleteAtValue(val);
-				break;
-//			case 8:
-//				s.reverse();
-//				break;
-			case 9:
-				System.out.println("Enter the idex at which you want to update the data");
-				int idx=sc.nextInt();
 				System.out.println("Enter the data");
-				int data=sc.nextInt();
-				s.update(idx,data);
+				data=sc.nextInt();
+				s.addAtMiddle(data,value);
 				break;
-			case 10:
-				System.out.println("Enter the idex at which you want to delete the data");
-				int didx=sc.nextInt();
-				s.deleteAtIdx(didx);
-				break;
+//			case 4:
+//				System.out.println("Number of nodes: "+s.countNode());
+//				break;
+//			case 5:
+//				s.deleteStart();
+//				break;
+//			case 6:
+//				s.deleteEnd();
+//				break;
+//			case 7:
+//				System.out.println("Enter the value at which you want to delete the data: ");
+//				int val=sc.nextInt();
+//				s.deleteAtValue(val);
+//				break;
+////			case 8:
+////				s.reverse();
+////				break;
+//			case 9:
+//				System.out.println("Enter the idex at which you want to update the data");
+//				int idx=sc.nextInt();
+//				System.out.println("Enter the data");
+//				int data=sc.nextInt();
+//				s.update(idx,data);
+//				break;
+//			case 10:
+//				System.out.println("Enter the idex at which you want to delete the data");
+//				int didx=sc.nextInt();
+//				s.deleteAtIdx(didx);
+//				break;
 			case 99:
 				s.display();
 				break;

@@ -8,6 +8,9 @@ public class Node {
 		data=0;
 		next=null;
 	}
+	public Node(int data) {
+		this.data=data;
+	}
 	public int getData() {
 		return data;
 	}
