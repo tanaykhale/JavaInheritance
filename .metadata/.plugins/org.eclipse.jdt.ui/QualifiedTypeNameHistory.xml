@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="office.newstaff.SalesManager"/>
-    <fullyQualifiedTypeName name="office.main.Person"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="school.Student"/>
@@ -54,10 +52,12 @@
     <fullyQualifiedTypeName name="dynamicqueue.QueueDL"/>
     <fullyQualifiedTypeName name="dynamicStack.StackDL"/>
     <fullyQualifiedTypeName name="Singlylinkedlist.SinglyLInkedList"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Doublylinkedlist.DoublyOperations"/>
     <fullyQualifiedTypeName name="Circularll.CircularllOperation"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="circularQueue.CircularQueue"/>
+    <fullyQualifiedTypeName name="Quictsort.Quicksortoperations"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="C2Stack.c2stack"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
