@@ -38,7 +38,7 @@ public class treeOperations {
 	public void preOrder(Node root) {
 		if(root == null)
 			return;
-		System.out.print(root.getData()+",degree "+degreeOfNodes(root)+"\n");
+		System.out.print(root.getData()+",");
 		preOrder(root.getLeft());
 		preOrder(root.getRight());
 		
@@ -67,5 +67,67 @@ public class treeOperations {
 		if(root.getRight()!=null)
 			count++;
 		return count;
+	}
+	public void delete(int value) {
+		Node tag=root;
+		Node temp=root;
+		int flag=0;
+		while(temp!=null) {
+			if(temp.getData()==value) {
+				flag=1;
+				break;
+			}
+			if(value<temp.getData()) {
+				tag=temp;
+				temp=temp.getLeft();
+			}
+			if(value>temp.getData()) {
+				tag=temp;
+				temp=temp.getRight();
+			}
+		}//while
+		if(flag==1) {
+			if(temp.getLeft()==null && temp.getRight()==null) {
+				if(temp==tag.getLeft())
+					tag.setLeft(null);
+				else if(temp==tag.getRight())
+					tag.setRight(null);
+			}
+			else if(temp.getLeft()!=null && temp.getRight()==null) {
+				if(tag.getLeft()==temp) {
+					tag.setLeft(temp.getLeft());
+				}
+				else if(tag.getRight()==temp) {
+					tag.setRight(temp.getLeft());
+				}
+				tag.setLeft(null);
+				tag.setRight(null);
+			}
+			else if(temp.getRight()!=null && temp.getLeft()==null) {
+				if(tag.getRight()==temp)
+					tag.setRight(temp.getRight());
+				else if(tag.getLeft()==temp)
+					tag.setLeft(temp.getRight());
+				
+				temp.setRight(null);
+			}
+			else if(temp.getRight()!=null && temp.getLeft()!=null) {
+				Node tag2=temp.getRight();
+				while(tag2.getLeft()!=null) {
+					tag2=tag2.getLeft();
+				}
+				if(temp==tag.getRight()) {
+					tag.setRight(temp.getRight());
+				}
+				else if(temp==tag.getLeft()) {
+					tag.setLeft(temp.getRight());
+				}
+				tag2.setLeft(temp.getLeft());
+				temp.setLeft(null);
+				temp.setRight(null);
+			}
+		}
+		else
+			System.out.println("Node not found");
 	}
 }

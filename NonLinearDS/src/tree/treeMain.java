@@ -11,6 +11,7 @@ public class treeMain {
 			System.out.println("2.Pre-order traversal");
 			System.out.println("3.In-order traversal");
 			System.out.println("4.Post-order traversal");
+			System.out.println("5.Delete node");
 			System.out.println("0.Exit");
 			ch=sc.nextInt();
 			switch(ch) {
@@ -27,6 +28,11 @@ public class treeMain {
 				break;
 			case 4:
 				bst.postOrder(bst.getRoot());
+				break;
+			case 5:
+				System.out.println("Enter the node you want to delete");
+				data=sc.nextInt();
+				bst.delete(data);
 				break;
 			case 0:
 				System.exit(0);
